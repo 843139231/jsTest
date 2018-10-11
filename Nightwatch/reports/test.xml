@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="test"
+    errors="1" failures="0" hostname="" id="" package="test" skipped="0"
+    tests="1" time="0.01000" timestamp="Thu, 11 Oct 2018 06:23:42 GMT">
+  
+    <testcase name="Search by baidu" classname="test" time="0.01000" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Test / Search by baidu]:
+
+  ReferenceError: searchBtn is not defined
+    at Object.Search by baidu (/Users/admin/project/jsTest/Nightwatch/tests/test.js:12:20)
+    at Module.call (/Users/admin/project/jsTest/Nightwatch/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/admin/project/jsTest/Nightwatch/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/admin/project/jsTest/Nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/admin/project/jsTest/Nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/admin/project/jsTest/Nightwatch/node_modules/q/q.js:796:13)
+    at /Users/admin/project/jsTest/Nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/admin/project/jsTest/Nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/admin/project/jsTest/Nightwatch/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:112:11)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>
