@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/nightwatch -c conf/test.conf.js -e chrome,safari,edge"
+    "test": "./node_modules/.bin/nightwatch -c ./nightwatch.json -e default"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "chromedriver": "^2.42.0",
     "nightwatch": "^0.9.21",
     "selenium-standalone": "^6.15.3"
   }
